@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .wrapper {
+    background: lightGray;
+    padding: 2em;
+  }
+  h1 {
+    font-size: 18px;
+    margin-bottom: -2em;
+  }
+  button {
+    background: purple;
+    color: white;
+    padding: .5em;
+    margin-top: 1em;
+    font-size: 24px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    transition: background 300ms linear;
+  }
+  button:hover {
+    background: grey;
+  }
+  div {
+    margin-top: 2em;
+    height: 100px;
+    width: 50%;
+    height: auto;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin: 2em auto;
+  }
+  p {
+    padding-top: 1em;
+    font-size: 18px;
+  }
